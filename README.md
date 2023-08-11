@@ -1,1 +1,1 @@
-# html/css homework
+# Веб-вёрстка HTML/CSS
