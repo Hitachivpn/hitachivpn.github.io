@@ -621,13 +621,15 @@ body {
 
 .card__img {
   margin-top: -50px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .card__desc {
   display: flex;
   flex-direction: column;
   gap: 6px;
-  height: 202px;
+  height: 140px;
   padding: 14px 22px 28px;
   background-color: #fff;
   border-radius: 0 0 20px 20px;
@@ -874,4 +876,27 @@ body {
   display: grid;
   gap: 14px;
   font-size: 16px;
+}
+
+.maps__title {
+  padding-top: 10px;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.maps__title_two {
+  padding-top: 10px;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.maps__text {
+  margin-bottom: 14px;
+  font-size: 16px;
+  line-height: 1.85; /* 29.6px */
+  opacity: 0.8;
+}
+
+.maps__grid {
+  padding: 15px;
 }/*# sourceMappingURL=main.css.map */

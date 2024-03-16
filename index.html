@@ -6,6 +6,9 @@
 		<title>Мебель & Интерьер</title>
 		<link rel="stylesheet" href="./css/main.css" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
 	</head>
 	<body>
 		<header class="header">
@@ -18,13 +21,13 @@
 
 					<ul class="nav-list">
 						<li class="nav-list__item">
-							<a href="#!" class="nav-list__link">О нас</a>
+							<a href="#benefits" class="nav-list__link">О нас</a>
 						</li>
 						<li class="nav-list__item">
-							<a href="#!" class="nav-list__link">Наши работы</a>
+							<a href="#products" class="nav-list__link">Наши работы</a>
 						</li>
 						<li class="nav-list__item">
-							<a href="#!" class="nav-list__link">Контакты</a>
+							<a href="#contact" class="nav-list__link">Контакты</a>
 						</li>
 					</ul>
 
@@ -58,7 +61,7 @@
 			</div>
 		</header>
 
-        <section class="benefits">
+        <section class="benefits" id="benefits">
             <div class="container">
                 <div class="benefits__grid">
 
@@ -91,7 +94,7 @@
             </div>
         </section>
 
-        <section class="products">
+        <section class="products" id="products">
             <div class="container">
 
                 <div class="products__title">
@@ -278,25 +281,51 @@
             </div>
         </section>
 
-        <section class="maps">
+        <section class="contact" id="contact">
             <div class="container">
-                <div class="maps__grid">
+                <div class="maps__grid" >
 
                     <div class="maps__title">
-                        <h2 class="title-2">Как к нам добраться</h2>
+                        <h2 class="title-2" >Контакты</h2>
                     </div>
-                    <div class="map">
-                        <h3 class="benefit__title">Адрес:</h3>
-                        <p class="benefit__text">Воронеж, улица Революции 1905 года, дом 1</p>
+                    <div class="maps">
+                        <h3 class="maps__title_two">Телефон:</h3>
+                        <a href="tel:+79507500885"> <i class="fas fa-phone-alt"></i> +7 (950) 750-0885</a>
                     </div>
-                    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af96c6c466220262101d6f32e8b29991e63631f91e49ead4278675e30f8466042&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
-
-
+                    <div class="maps">
+                        <h3 class="maps__title_two">Whatsapp:</h3>
+                        <a href="https://api.whatsapp.com/send?phone=79123456789">
+                            <i class="fab fa-whatsapp"></i> Отправить сообщение в WhatsApp
+                        </a>
+                    </div>
+                    <div class="maps">
+                        <h3 class="maps__title_two">Группа вконтакте:</h3>
+                        <a href="https://vk.com/mebel_i_interior"><i class="fab fa-vk"></i> МЕБЕЛЬ и ИНТЕРЬЕР</a>
+                    </div>
+                      
 
                 </div>
+
+                </div> 
             </div>
         </section>
 
+        <section class="maps" id="maps">
+            <div class="container">
+                <div class="maps__grid" >
+
+                    <div class="maps__title">
+                        <h2 class="title-2" >Как к нам добраться</h2>
+                    </div>
+                    <div class="maps">
+                        <h3 class="maps__title_two">Адрес:</h3>
+                        <p class="maps__text">Воронеж, улица Революции 1905 года, дом 1</p>
+                    </div>
+                    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af96c6c466220262101d6f32e8b29991e63631f91e49ead4278675e30f8466042&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+
+                </div> 
+            </div>
+        </section>
 
         <footer class="footer">
             <div class="container container--small">
@@ -314,23 +343,7 @@
                     </div>
                     <!-- // Desc -->
 
-                    <nav class="footer__nav footer__nav--services">
-                        <h3 class="footer__nav-title">Services</h3>
-                        <ul class="footer__list">
-                            <li class="footer__list-item"><a href="#!">Email Marketing</a></li>
-                            <li class="footer__list-item"><a href="#!">Campaigns</a></li>
-                            <li class="footer__list-item"><a href="#!">Branding</a></li>
-                        </ul>
-                    </nav>
 
-                    <nav class="footer__nav">
-                        <h3 class="footer__nav-title">Furniture</h3>
-                        <ul class="footer__list">
-                            <li class="footer__list-item"><a href="#!">Beds</a></li>
-                            <li class="footer__list-item"><a href="#!">Chair</a></li>
-                            <li class="footer__list-item"><a href="#!">All</a></li>
-                        </ul>
-                    </nav>
 
                 </div>
                 <!-- // footer__grid -->
@@ -362,13 +375,13 @@
 
                 <ul class="mobile-nav">
                     <li class="mobile-nav__item">
-                        <a href="#!" class="mobile-nav__link">Shop</a>
+                        <a href="#benefits" class="mobile-nav__link">О нас</a>
                     </li>
                     <li class="mobile-nav__item">
-                        <a href="#!" class="mobile-nav__link">About Us</a>
+                        <a href="#products" class="mobile-nav__link">Наши работы</a>
                     </li>
                     <li class="mobile-nav__item">
-                        <a href="#!" class="mobile-nav__link">Contact</a>
+                        <a href="#contact" class="mobile-nav__link">Контакты</a>
                     </li>
                 </ul>
         </div>
