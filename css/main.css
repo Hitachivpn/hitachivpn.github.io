@@ -206,6 +206,8 @@ body {
 @media (max-width: 992px) {
   .nav__btn {
     display: block;
+    justify-self: end;
+    grid-column: 3;
   }
 }
 
