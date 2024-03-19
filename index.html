@@ -18,7 +18,6 @@
                     <div class="nav__logo">
                         <a href="#!" class="logo">Мебель Интерьер</a>
                     </div>
-
 					<ul class="nav-list">
 						<li class="nav-list__item">
 							<a href="#benefits" class="nav-list__link">О нас</a>
@@ -30,11 +29,8 @@
 							<a href="#contact" class="nav-list__link">Контакты</a>
 						</li>
 					</ul>
-
-
                     <button id="open-mobile-nav-btn" class="nav__btn"><img src="./img/icons/mobile-nav.svg" alt="Open navigation"></button>
 				</nav>
-
 				<div class="header__content">
 					<h1 class="header__title">
 						Студия дизайна интерьера & мебели
@@ -43,20 +39,6 @@
 						Создаем уют и гармонию в вашем доме
                         воплощающая ваши мечты в реальность
 					</p>
-                    <!--
-                    <div class="header__search">
-                        <form action="" class="search-form">
-                            <input
-                                placeholder="Поиск на странице"
-                                type="text"
-                                class="search-form__input"
-                                autocomplete="off"
-                            />
-                            <button class="search-form__btn">
-                                <img src="./img/icons/search.svg" alt="Search" />
-                            </button>
-                        </form>
-                    </div> -->
 				</div>
 			</div>
 		</header>
@@ -64,11 +46,9 @@
         <section class="benefits" id="benefits">
             <div class="container">
                 <div class="benefits__grid">
-
                     <div class="benefits__title">
                         <h2 class="title-2">Почему выбирают нас</h2>
                     </div>
-
                     <div class="benefit">
                         <h3 class="benefit__title">Индивидуальный подход:</h3>
                         <p class="benefit__text">Мы предлагаем персонализированный подход к каждому клиенту и проекту. 
@@ -89,7 +69,6 @@
                             технологии в наших проектах. Наша студия постоянно следит за тенденциями и стремится к 
                             инновациям, предлагая клиентам современные и стильные решения.</p>
                     </div>
-
                 </div>
             </div>
         </section>
@@ -101,41 +80,34 @@
                     <h2 class="title-2">Наши работы</h2>
                 </div>
 
-                <div class="products__tabs none">
+                <div class="products__tabs">
                     <div class="tab-controls">
-                        <button data-tab="all" class="tab-controls__btn tab-controls__btn--active">All</button>
+                        <button data-tab="all" class="tab-controls__btn tab-controls__btn--active">Все</button>
+                        <button data-tab="kitchen" class="tab-controls__btn tab-controls__btn--active">Кухни</button>
+                        <button data-tab="hallway" class="tab-controls__btn tab-controls__btn--active">Прихожие</button>
+                        <button data-tab="сase" class="tab-controls__btn tab-controls__btn--active">Шкафы</button>
                     </div>
                 </div>
 
                 <div class="products__slider">
 
-                    <!-- //slider -->
                     <div class="slider">
-
-                        <!-- Slider main container -->
                         <div class="swiper">
-
-                            <!-- Additional required wrapper -->
                             <div class="swiper-wrapper">
-                                <!-- Slides -->
-                                <article data-tab-value="chair" class="card swiper-slide">
+                                <article data-tab-value="hallway" class="card swiper-slide">
                                     <a href="#product-page" class="card__link"></a>
                                     <div class="card__photo">
                                         <img src="./img/products/prih.jpg" srcset="./img/products/prih.jpg" alt="Title" class="card__img" style="width: 100%; height: 100%; object-fit: cover;">
                                     </div>
-
                                     <div class="card__desc">
-
                                         <a href="#category" class="card__category">Прихожая</a>
                                         <h3 class="card__title">Эггер грей</h3>
-
                                         <div class="card__footer">
                                             <div class="card__price">129 800 ₽</div>
                                         </div>
-
                                     </div>
                                 </article>
-                                <article data-tab-value="chair" class="card swiper-slide">
+                                <article data-tab-value="kitchen" class="card swiper-slide">
                                     <a href="#product-page" class="card__link"></a>
                                     <div class="card__photo">
                                         <img src="./img/products/kitchen1.jpg" srcset="./img/products/kitchen1.jpg" alt="Title" class="card__img" style="width: 100%; height: 100%; object-fit: cover;">
@@ -150,7 +122,7 @@
                                         </div>
                                     </div>
                                 </article>
-                                <article data-tab-value="chair" class="card swiper-slide">
+                                <article data-tab-value="kitchen" class="card swiper-slide">
                                     <a href="#product-page" class="card__link"></a>
                                     <div class="card__photo">
                                         <img src="./img/products/kitchen2.jpg" srcset="./img/products/kitchen2.jpg" alt="Title" class="card__img" style="width: 100%; height: 100%; object-fit: cover;">
@@ -165,7 +137,7 @@
                                         </div>
                                     </div>
                                 </article>
-                                <article data-tab-value="chair" class="card swiper-slide">
+                                <article data-tab-value="kitchen" class="card swiper-slide">
                                     <a href="#product-page" class="card__link"></a>
                                     <div class="card__photo">
                                         <img src="./img/products/kitchen3.jpg" srcset="./img/products/kitchen3.jpg" alt="Title" class="card__img" style="width: 100%; height: 100%; object-fit: cover;">
@@ -180,8 +152,7 @@
                                         </div>
                                     </div>
                                 </article>
-
-                                <article data-tab-value="chair" class="card swiper-slide">
+                                <article data-tab-value="сase" class="card swiper-slide">
                                     <a href="#product-page" class="card__link"></a>
                                     <div class="card__photo">
                                         <img src="./img/products/shelf1.jpg" srcset="./img/products/shelf1.jpg" alt="Title" class="card__img" style="width: 100%; height: 100%; object-fit: cover;">
@@ -196,8 +167,7 @@
                                         </div>
                                     </div>
                                 </article>
-
-                                <article data-tab-value="chair" class="card swiper-slide">
+                                <article data-tab-value="kitchen" class="card swiper-slide">
                                     <a href="#product-page" class="card__link"></a>
                                     <div class="card__photo">
                                         <img src="./img/products/kitchen4.jpg" srcset="./img/products/kitchen4.jpg" alt="Title" class="card__img" style="width: 100%; height: 100%; object-fit: cover;">
@@ -212,8 +182,7 @@
                                         </div>
                                     </div>
                                 </article>
-
-                                <article data-tab-value="chair" class="card swiper-slide">
+                                <article data-tab-value="kitchen" class="card swiper-slide">
                                     <a href="#product-page" class="card__link"></a>
                                     <div class="card__photo">
                                         <img src="./img/products/kitchen5.jpg" srcset="./img/products/kitchen5.jpg" alt="Title" class="card__img" style="width: 100%; height: 100%; object-fit: cover;">
@@ -228,8 +197,7 @@
                                         </div>
                                     </div>
                                 </article>
-
-                                <article data-tab-value="chair" class="card swiper-slide">
+                                <article data-tab-value="kitchen" class="card swiper-slide">
                                     <a href="#product-page" class="card__link"></a>
                                     <div class="card__photo">
                                         <img src="./img/products/kitchen6.jpg" srcset="./img/products/kitchen6.jpg" alt="Title" class="card__img" style="width: 100%; height: 100%; object-fit: cover;">
@@ -244,8 +212,7 @@
                                         </div>
                                     </div>
                                 </article>
-
-                                <article data-tab-value="chair" class="card swiper-slide">
+                                <article data-tab-value="kitchen" class="card swiper-slide">
                                     <a href="#product-page" class="card__link"></a>
                                     <div class="card__photo">
                                         <img src="./img/products/kitchen7.jpg" srcset="./img/products/kitchen7.jpg" alt="Title" class="card__img" style="width: 100%; height: 100%; object-fit: cover;">
@@ -261,23 +228,15 @@
                                     </div>
                                 </article>
                             </div>
-
                         </div>
-
-                        <!-- If we need navigation buttons -->
                         <button id="sliderPrev" class="slider__btn slider__btn--prev">
                             <img src="./img/icons/slider/slider-left.svg" alt="Previous">
                         </button>
-
                         <button id="sliderNext" class="slider__btn slider__btn--next">
                             <img src="./img/icons/slider/slider-right.svg" alt="Next">
                         </button>
-
                     </div>
-                    <!-- //slider -->
-
                 </div>
-                <!-- //products__slider -->
             </div>
         </section>
 
@@ -375,13 +334,13 @@
 
                 <ul class="mobile-nav">
                     <li class="mobile-nav__item">
-                        <a href="#benefits" class="mobile-nav__link">О нас</a>
+                        <a href="#benefits" class="mobile-nav__link" >О нас</a>
                     </li>
                     <li class="mobile-nav__item">
-                        <a href="#products" class="mobile-nav__link">Наши работы</a>
+                        <a href="#products" class="mobile-nav__link" >Наши работы</a>
                     </li>
                     <li class="mobile-nav__item">
-                        <a href="#contact" class="mobile-nav__link">Контакты</a>
+                        <a href="#contact" class="mobile-nav__link" >Контакты</a>
                     </li>
                 </ul>
         </div>
